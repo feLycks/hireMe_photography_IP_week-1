@@ -1,3 +1,62 @@
-body {
-    background-color: yellow;
+:root {
+    --defaut-text:#dedede;
+    --default-btn:yellowgreen;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner-wrap {
+    background-image: url(./images/banner/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+}
+
+.contact-info {
+    display: inline-flex;
+    color: var(--defaut-text);
+    font-size: 1rem;
+    font-family: monospace;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    margin-bottom: 40px;
+}
+#w-hrs {
+    margin-right: 80px;
+}
+
+/* MAIN-HEADER SECTION  */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-items ul li {
+    display: inline-flex;
+}
+
+ul li a {
+    color: var(--defaut-text);
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    font-family: monospace;
+    font-weight: 600;
+
+
+
+}
+.social ul li {
+    display: inline-flex;
+    /* padding: 0px 10px; */
+    text-decoration: none;
+    list-style: none;
 }
