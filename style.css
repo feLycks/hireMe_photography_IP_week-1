@@ -1,5 +1,5 @@
 :root {
-    --defaut-text:#dedede;
+    --defaut-text:#fff;
     --default-btn:yellowgreen;
 }
 
@@ -14,9 +14,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding:20px 80px;
+    padding:30px 80px;
 }
-
+.logo a img {
+    max-width: 20%;
+    margin-left: -25px;
+}
 .contact-info {
     display: inline-flex;
     color: var(--defaut-text);
@@ -34,7 +37,7 @@
 .main-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: 240px;
 }
 
 .link-items ul li {
@@ -93,7 +96,7 @@ ul li a {
 }
 
 .get-quote-btn{
-    margin: 40px 0px;
+    margin: 20px 0px 80px 0px;
     padding: 20px 40px;
     border: none;
     border-radius: 50px;
@@ -104,4 +107,64 @@ ul li a {
     font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: .25rem;
+}
+
+/* SECTION MAIN-CONTENT-BODY-WRAPPER  */
+.main-content-body-wrapper{
+    padding: 40px 120px;
+}
+
+.main-profile-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile img {
+    width: 20%;
+    height: auto;
+    border: 3px solid #dedede;
+    border-radius: 50%;
+}
+
+.user-info p{
+    color: inherit;
+    font-size: 20px;
+}
+#user-name {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+#span-user-name {
+    font-weight: lighter;
+}
+
+#user-title {
+    font-size: 24px;
+    line-height: 2.5rem;
+}
+
+/* SKILLS  */
+.service , .skills{
+    display: inline-block;
+
+}
+
+ #skill-title {
+     font-size: 28px;
+     margin-bottom: 20px;
+ }
+
+ .skills ol li {
+     font-size: 24px;
+     color: green;
+     padding: 6px 0;
+ }
+
+ .service ul li {
+    font-size: 24px;
+    color: green;
+    padding: 6px 0;
 }
