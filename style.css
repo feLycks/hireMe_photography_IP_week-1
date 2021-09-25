@@ -216,3 +216,18 @@ ul li a {
 .potrait-img-item img:hover{
     opacity: .8;
 }
+
+
+/* PRICING  */
+.pricing {
+    padding: 40px 0px;
+}
+
+#place-order {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: var(--color-code-2);
+}
