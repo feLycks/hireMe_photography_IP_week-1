@@ -1,6 +1,7 @@
 :root {
     --defaut-text:#fff;
-    --default-btn:yellowgreen;
+    --color-code-1: #9ACD32;
+    --color-code-2: #6B8E23;
 }
 
 * {
@@ -102,7 +103,7 @@ ul li a {
     border-radius: 50px;
     text-align: center;
     color: var(--defaut-text);
-    background-color: yellowgreen;
+    background-color: var(--color-code-1);
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 400;
@@ -159,12 +160,59 @@ ul li a {
 
  .skills ol li {
      font-size: 24px;
-     color: green;
+     color: var(--color-code-1);
      padding: 6px 0;
  }
 
  .service ul li {
     font-size: 24px;
-    color: green;
+    color: var(--color-code-1);
     padding: 6px 0;
+}
+
+/* POTFOLIO SECTION  */
+.potfolio {
+    padding: 40px 0px;
+}
+
+.p_folio-head {
+    display: flex;
+    justify-content: center;
+}
+
+.p_folio-head ul li {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    font-family: monospace;
+    letter-spacing: .25rem;
+}
+
+.p_folio-head ul li:hover {
+    color: var(--color-code-1);
+}
+#active-head {
+    border-bottom: 3px solid var(--color-code-1);
+    border-radius: 50px;
+    color: var(--color-code-1);
+}
+
+.potrait-img-item {
+    display: inline-block;
+}
+
+.potrait-img-item img {
+    cursor: pointer;
+    max-width: 350px;
+    height: auto;
+}
+
+.potrait-img-item img:hover{
+    opacity: .8;
 }
