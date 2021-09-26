@@ -264,6 +264,7 @@ ul li a {
 /* PRICING  */
 .pricing {
     padding: 40px 0px;
+    text-align: center;
 }
 
 #place-order {
@@ -272,7 +273,15 @@ ul li a {
     letter-spacing: .25rem;
     text-transform: uppercase;
     font-family: monospace;
-    color: var(--color-code-2);
+    color: var(--color-code-1);
+    align-items: center;
+    text-align: center;
+    padding: 40px 0px;
+}
+.pricing small {
+    text-transform: inherit;
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .order-items {
