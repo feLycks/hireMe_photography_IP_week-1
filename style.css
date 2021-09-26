@@ -321,3 +321,16 @@ small{
 #gold {
     background-color:var(--color-gold);
 }
+
+footer {
+    background-color: var(--color-code-2);
+    padding: 20px 80px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-family: monospace;
+}
+.web {
+    letter-spacing: .25rem;
+}
