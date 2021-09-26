@@ -2,6 +2,8 @@
     --defaut-text:#fff;
     --color-code-1: #9ACD32;
     --color-code-2: #6B8E23;
+    --color-gold: #ffd700;
+    --color-bronze: #a97142;
 }
 
 * {
@@ -232,36 +234,90 @@ ul li a {
     color: var(--color-code-2);
 }
 
-/* PRICING -ITEMS  */
-
 .order-items {
     display: flex;
+    padding: 40px 0px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.order-head {
+    text-transform: uppercase;
+    background-color: var(--color-code-1);
+    padding: 20px;
+    color: var(--defaut-text);
+    font-family: monospace;
+    letter-spacing: .2rem;
+    font-size: 1.5rem;
 }
 
 .order-item-1 {
     border: 1px solid var(--color-code-1);
-    max-width: 300px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    max-width: 400px;
     text-align: center;
     align-items: center;
 }
 
 #tik {
-    max-width: 30px;
+    max-width: 35px;
     margin-right: 2px;
     margin-top: -5px;
     margin-right: 5px;
+    height: auto;
 }
 
 .p-descr-content {
     display: inline-flex;
 }
+
 .p-descr-content  p {
     color: inherit;
     font-size: 1.5rem;
     font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
-.p-descr-content  p img {
-   margin-top: 8px;
-   margin-bottom: 8px;
+.price  p{
+    color: black;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 24px;
+    color: var(--color-bronze);
+    font-weight: bold;
+}
+
+#price-gold p {
+    color: var(--color-gold);
+}
+#price-silver p {
+    color: var(--color-code-1);
+}
+
+small{
+    font-weight: lighter;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+#order-btn {
+   padding: 20px 0px;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    background-color: transparent;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    border: 1px solid var(--color-code-2);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#bronze {
+    background-color: var(--color-bronze);
+}
+#gold {
+    background-color:var(--color-gold);
 }
