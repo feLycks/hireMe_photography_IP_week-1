@@ -118,12 +118,15 @@ ul li a {
 }
 
 .main-profile-content {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    justify-content: space-around;
 }
-
+.user-profile {
+    margin-right: 80px;
+}
 .user-profile img {
-    width: 20%;
+    max-width: 120px;
+    height: auto;
     height: auto;
     border: 3px solid #dedede;
     border-radius: 50%;
@@ -151,8 +154,11 @@ ul li a {
 
 /* SKILLS  */
 .service , .skills{
-    display: inline-block;
+    display: inline;
+}
 
+#skills {
+    margin-right: 120px;
 }
 
  #skill-title {
@@ -170,6 +176,9 @@ ul li a {
     font-size: 24px;
     color: var(--color-code-1);
     padding: 6px 0;
+}
+#services {
+    margin-left: 30px;
 }
 
 /* POTFOLIO SECTION  */
