@@ -1,3 +1,3 @@
-# hireMe_photography_IP_week-1
-
-IP - Photography freelancer Website
+Project name : hire_me Photography website
+Author name : felix Obiero
+Description : Freelancer website
