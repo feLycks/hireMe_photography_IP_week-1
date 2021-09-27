@@ -353,8 +353,8 @@ small{
     text-transform: uppercase;
 }
 
-#order-btn {
-   padding: 20px 0px;
+#order-btn a{
+    padding: 20px 30px;
     align-items: center;
     text-align: center;
     width: 80%;
@@ -366,6 +366,7 @@ small{
     border: 1px solid var(--color-code-2);
     margin-top: 40px;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 #bronze {
     background-color: var(--color-bronze);
@@ -427,6 +428,13 @@ input {
     background-color: transparent;
     border: 2px solid var(--defaut-text);
     color: var(--defaut-text);  
+}
+
+button {
+    background: none;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 input::placeholder {
