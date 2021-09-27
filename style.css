@@ -384,3 +384,60 @@ footer {
 .web {
     letter-spacing: .25rem;
 }
+
+/* STYLE FORM  */
+.purchase {
+    background-image: url(./images/pfolio/lens.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 150px;
+    /* display:flex; */
+
+}
+
+form {
+    display: block;
+    max-width: 650px;
+    height: auto;
+    margin-left: 380px;
+}
+
+textarea{
+    display:block;
+    width: 100%;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    background-color: transparent;
+    border: 2px solid var(--defaut-text);
+    color: var(--defaut-text);
+    outline: none;
+}
+input {
+    display:block;
+    outline: none;
+    width: 100%;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    background-color: transparent;
+    border: 2px solid var(--defaut-text);
+    color: var(--defaut-text);  
+}
+
+input::placeholder {
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: .25rem;
+    color: white;
+    padding-left: 10px;
+}
+
+textarea::placeholder {
+    color: white;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: monospace;
+}
