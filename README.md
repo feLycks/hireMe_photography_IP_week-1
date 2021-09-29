@@ -1,2 +1,1 @@
-hire_Me Photography Website
-
+Everything but Photography !
