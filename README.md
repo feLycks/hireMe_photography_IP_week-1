@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# Freelancer Website (hire_me)
 
+# Freelancer Website (hire_me)
 <hr>
 
 ## Description.
