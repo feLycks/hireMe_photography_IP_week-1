@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Freelancer Website (hire_me)
 
 <hr>
@@ -36,3 +37,11 @@ Work timings and days are as below:
 Copyright @MIT 2021. 
 
 
+=======
+title 
+description
+set up & installation
+technologies used 
+support and contact details
+liscence
+>>>>>>> 0bb72a0098d9e84ddb6a41ddc0399b472898c6bb
