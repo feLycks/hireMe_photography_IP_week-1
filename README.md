@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Table of Content
 
@@ -11,7 +12,10 @@
 <br/>
 
 # Freelancer Website (hire_me)
+=======
+>>>>>>> 3272ac9e5feaac1dd5be6223901a109fd05293e6
 
+# Freelancer Website (hire_me)
 <hr>
 
 ## Description.
@@ -76,12 +80,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE
 </P>
 
-
-=======
-title 
-description
-set up & installation
-technologies used 
-support and contact details
-liscence
->>>>>>> 0bb72a0098d9e84ddb6a41ddc0399b472898c6bb
